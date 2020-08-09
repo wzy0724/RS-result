@@ -10,4 +10,4 @@ epoch = 51
 step = [20,38]  
 aspp =(1,3,6,1) (默认)   
 pretrain = detectors_cascade_rcnn_r50_1x_coco-32a10ba0.pth * 2  
-threshold=0.25/0.25  
+threshold=0.25/0.3
