@@ -7,8 +7,8 @@ resize = 1000,1000
 batchsize = 2  
 lr = 0.01  
 epoch = 51  
-step = [20,38]  
+step = [14,25]  
 aspp =(1,3,6,1) (默认)  
-pretrain = resnet50 + detectors_cascade_rcnn_r50_1x_coco-32a10ba0.pth  
+pretrain = RFP-resnet50# + detectors_cascade_rcnn_r50_1x_coco-32a10ba0.pth  
 threshold=0.25/0.3  
  
