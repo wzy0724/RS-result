@@ -1,7 +1,6 @@
 训练日期：2020/8/9  
 数据集：htxt-ship  (300张训练/300张测试)  
 最后得分：xx  
-权重文件 链接: https://pan.baidu.com/s/1JTSOnUpvLMVF_dLUsRfBoA 提取码: kn6h  
 
 具体参数：  
 resize = 1000,1000  
