@@ -1,6 +1,6 @@
 model = dict(
     type='CascadeRCNN',
-    pretrained='./checkpoints/detectors_cascade_rcnn_r50_1x_coco-32a10ba0.pth',
+    pretrained='torchvision://resnet50',
     backbone=dict(
         type='DetectoRS_ResNet',
         depth=50,
@@ -35,7 +35,7 @@ model = dict(
             sac=dict(type='SAC', use_deform=True),
             stage_with_sac=(False, True, True, True),
             pretrained=
-            './checkpoints/cascade_rcnn_r50_rfp_1x_coco-8cf51bfd.pth',
+            'torchvision://resnet50',
             style='pytorch')),
     rpn_head=dict(
         type='RPNHead',
