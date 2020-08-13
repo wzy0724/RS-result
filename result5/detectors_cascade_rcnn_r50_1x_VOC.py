@@ -1,6 +1,6 @@
 model = dict(
     type='CascadeRCNN',
-    pretrained='./checkpoints/detectors_cascade_rcnn_r50_1x_coco-32a10ba0.pth',
+    pretrained='torchvision://resnet50',
     backbone=dict(
         type='DetectoRS_ResNet',
         depth=50,
@@ -310,7 +310,7 @@ data = dict(
                 ])
         ]))
 evaluation = dict(interval=1, metric='mAP')
-optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=0.0001)
+optimizer = dict(type='SGD', lr=0.02, momentum=0.9, weight_decay=0.0001)
 optimizer_config = dict(grad_clip=None)
 lr_config = dict(
     policy='step',
