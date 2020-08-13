@@ -5,7 +5,7 @@
 具体参数：  
 resize = 1000,1000  
 batchsize = 2  
-lr = 0.02  
+lr = 0.02  #提高了学习率  
 epoch = 36  
 step = [14,25]  
 aspp =(1,3,6,1)  
