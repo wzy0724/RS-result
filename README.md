@@ -7,17 +7,17 @@ rfp pretrain添加了预训练模型后效果都变得极差
 
 
 
- 
-                 结果               预训练模型                 aspp                epoch+step           lr          mAP      
-
-               result0         detectoRS+resnet50            (1,3,6,1)             36(14,25)           0.01        19.6  
-
-               result1           detectoRS+RFP               (1,2,3,1)             51(20,38)           0.01      
   
-               result2           detectoRS+RFP               (1,3,6,1)             51(20,38)           0.01         
+                 结果               预训练模型                 aspp                epoch+step           lr        thr        mAP      
+
+               result0         detectoRS+resnet50            (1,3,6,1)             36(14,25)           0.01       0.5       19.6  
+
+               result1           detectoRS+RFP               (1,2,3,1)             51(20,38)           0.01       0.25
+ 
+               result2           detectoRS+RFP               (1,3,6,1)             51(20,38)           0.01       0.25 
     
-               result3            resnet50 * 2               (1,3,6,1)             36(14,25)           0.01       
+               result3            resnet50 * 2               (1,3,6,1)             36(14,25)           0.01       0.25      18.3 
 
-               result4            resnet50 * 2               (1,2,3,1)             36(14,25)           0.01        
+               result4            resnet50 * 2               (1,2,3,1)             36(14,25)           0.01       0.25 
 
-               result5            resnet50 * 2               (1,3,6,1)             36(14,25)           0.02      
+               result5            resnet50 * 2               (1,3,6,1)             36(14,25)           0.02       0.25
