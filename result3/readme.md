@@ -10,5 +10,5 @@ epoch = 36
 step = [14,25]  
 aspp =(1,3,6,1) (默认)  
 pretrain = torchvision://resnet50 * 2    
-threshold=0.25/0.3  
+threshold=0.25/0.3  //   0.5/0.3
  
