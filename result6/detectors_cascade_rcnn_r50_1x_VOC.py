@@ -21,7 +21,7 @@ model = dict(
         num_outs=5,
         rfp_steps=2,
         aspp_out_channels=64,
-        aspp_dilations=(1, 3, 6, 1),
+        aspp_dilations=(1, 2, 3, 1), #调整
         rfp_backbone=dict(
             rfp_inplanes=256,
             type='DetectoRS_ResNet',
@@ -319,11 +319,11 @@ lr_config = dict(
     warmup_ratio=0.001,
     step=[14, 25])
 total_epochs = 36
-checkpoint_config = dict(interval=3)
-log_config = dict(interval=150, hooks=[dict(type='TextLoggerHook')])
+checkpoint_config = dict(interval=36)
+log_config = dict(interval=450, hooks=[dict(type='TextLoggerHook')])
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
-work_dir = './work_dirs/htxt/test5'
+work_dir = './work_dirs/htxt/test6'
 load_from = None
 resume_from = None
 workflow = [('train', 1)]
