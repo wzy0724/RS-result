@@ -20,6 +20,8 @@ rfp pretrain添加了预训练模型后效果都变得极差
 
                result4            resnet50 * 2               (1,2,3,1)             36(14,25)           0.01       0.25      18.4
 
-               result5            resnet50 * 2               (1,3,6,1)             36(14,25)           0.02       0.25
+               result5            resnet50 * 2               (1,3,6,1)             36(14,25)           0.02       0.25      较差
  
-               result6         detectoRS+resnet50            (1,2,3,1)             36(14,25)           0.01       0.25
+               result6         detectoRS+resnet50            (1,3,6,1)             36(24,33)           0.01       0.25  
+
+               result7         detectoRS+resnet50            (1,2,3,1)             36(24,33)           0.01       0.25
