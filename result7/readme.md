@@ -4,7 +4,7 @@
 
 具体参数：  
 resize = 1000,1000  
-batchsize = 2
+batchsize = 2  
 lr = 0.01     
 epoch = 36    
 step = [24, 33]   
