@@ -33,4 +33,4 @@
   
                result8         detectoRS+resnet50            (1,3,6,1)             36(24,33)           0.01       0.25  
                
-               result9     
+                  
