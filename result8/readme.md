@@ -5,9 +5,10 @@
 具体参数：  
 resize = 1000,1000  
 batchsize = 2  
-lr = 0.02  #  
+lr = 0.01    
 epoch = 36  
 step = [24, 33]  
-aspp =(1,2,3,1) #  
+aspp = (1,3,6,1)  
+sac = (T,T,T,T) * 2  #默认是(F,T,T,T)*2  
 pretrain = resnet50 + detectors_cascade_rcnn_r50_1x_coco-32a10ba0.pth  
 threshold=0.25/0.3  
