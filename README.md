@@ -37,8 +37,13 @@
     
 5. 数据增强的影响
 
-基本参数：   结果            预训练模型              aspp            epoch+step           lr         thr  
-           result9       detectoRS+resnet50       (1,3,6,1)          36(14,25)           0.01       0.25      
+基本参数：   预训练模型：detectoRS+resnet50  
+
+             aspp+sac：default  
+        
+             epoch+step：36(24,33)  
+             
+             lr：0.01  
 
 
 
