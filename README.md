@@ -40,7 +40,7 @@
 
 
          
-         数据增强         RandomFlip           RandomRotate           RandomCrop           Brightness          Contrast 
+         数据增强         RandomFlip      ShiftScaleRotate       RandomRotate      RandomCrop       Brightness       Contrast 
          
            map              18.86 
 
