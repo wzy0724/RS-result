@@ -36,13 +36,9 @@
     
     
      
-5. 数据增强的影响
+5. 数据增强的影响 (基本参数：result6)
 
 
-
-         基本参数：   detectoRS+resnet50       spp+sac：default         epoch+step：36(24,33)         lr：0.01        thr:0.25
-         
-         
          
          数据增强         RandomFlip           RandomRotate           RandomCrop           Brightness          Contrast 
          
