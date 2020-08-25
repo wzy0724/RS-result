@@ -32,5 +32,18 @@
          result7      detectoRS+resnet50          (1,2,3,1)           36(24,33)          0.01       0.25      18.64
   
          result8      detectoRS+resnet50          (1,3,6,1)           36(24,33)          0.01       0.25      18.41
+         
+    
+    
+5. 数据增强的影响
+
+
+          结果            预训练模型                 aspp            epoch+step           lr        thr        mAP      
+
+         result9       detectoRS+resnet50         (1,3,6,1)          36(14,25)           0.01       0.25      
+
+
+
+
                
                   
