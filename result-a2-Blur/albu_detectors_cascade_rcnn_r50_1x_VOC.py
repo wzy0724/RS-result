@@ -9,11 +9,11 @@ albu_train_transforms = [
     #     rotate_limit=0,
     #     interpolation=1,
     #     p=0.5),
-    dict(
-        type='RandomBrightnessContrast',
-        brightness_limit=[0.1, 0.3],
-        contrast_limit=[0.1, 0.3],
-        p=0.2),
+    # dict(
+    #     type='RandomBrightnessContrast',
+    #     brightness_limit=[0.1, 0.3],
+    #     contrast_limit=[0.1, 0.3],
+    #     p=0.2),
     # dict(
     #     type='OneOf',
     #     transforms=[
@@ -33,13 +33,13 @@ albu_train_transforms = [
     #     p=0.1),
     # dict(type='JpegCompression', quality_lower=85, quality_upper=95, p=0.2),
     # dict(type='ChannelShuffle', p=0.1),
-    # dict(
-    #     type='OneOf',
-    #     transforms=[
-    #         dict(type='Blur', blur_limit=3, p=1.0),
-    #         dict(type='MedianBlur', blur_limit=3, p=1.0)
-    #     ],
-    #     p=0.1),
+     dict(
+         type='OneOf',
+         transforms=[
+             dict(type='Blur', blur_limit=3, p=1.0),
+             dict(type='MedianBlur', blur_limit=3, p=1.0)
+         ],
+         p=0.1),
 ]
 train_pipeline = [
     dict(type='LoadImageFromFile'),
