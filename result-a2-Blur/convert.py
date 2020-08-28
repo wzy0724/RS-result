@@ -36,7 +36,7 @@ for da in data:
             h = int(dd[3]) - int(dd[1])
             cv2.rectangle(image,(x1,y1),(x2,y2),(0,0,255),2)
 
-            res = str(dd[0]) + "," + str(dd[1]) + "," + str(w) + "," + str(h) + "," + str(dd[4]) + ",1"
+            res = str(x1) + "," + str(y1) + "," + str(w) + "," + str(h) + "," + str(dd[4]) + ",1"
             #for index,d in enumerate(dd):
                # res +=str(d)
                # res +=","
