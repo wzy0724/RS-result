@@ -40,10 +40,10 @@
 
 
          
-         数据增强         RandomFlip      RandomBrightnessContrast       Blur      RandomRotate90      RandomCrop
+         数据增强         RandomFlip      RandomBrightnessContrast       Blur          RandomRotate90      RandomCrop
          
-           map              18.86                  18.93  
-
+           map              18.86                   18.93                18.11
+ 
  
 
 
